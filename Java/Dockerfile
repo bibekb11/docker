@@ -14,6 +14,7 @@ ENV JAVA_HOME C:\Program Files\Java\jdk1.8.0_211
 ENV PATH $PATH C:\Program Files\Java\jdk1.8.0_211\bin
 RUN javac Hello.java
 CMD ["java", "Hello"]
+EXPOSE 8080
 
 #to run java program in  a container
 #we need to pull an openjdk image from dockerhub
