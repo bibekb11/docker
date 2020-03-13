@@ -14,7 +14,7 @@
 ## After this we build the dockerfile:
 
 $docker build -t imagename:tag <location>
-$ docker build -t java:test .
+-> docker build -t java:test .
 
 ## After the build finishes we run the image
 
