@@ -2,6 +2,5 @@ FROM node:10
 WORKDIR /app
 COPY package.json /app
 RUN npm install
-COPY . /
-CMD ["npm", "start"]
-EXPOSE 8080
+COPY . /app
+CMD ["npm" "start"]
